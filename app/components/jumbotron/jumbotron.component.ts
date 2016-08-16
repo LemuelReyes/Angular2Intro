@@ -11,5 +11,9 @@ export class JumbotronComponent {
   private jbtBtnUrl:string;
 
   constructor() {
+  this.jbtHeading = 'Hello World';
+  this.jbtText = 'This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.';
+  this.jbtBtnText = 'Read more';
+  this.jbtBtnUrl = 'http://test.com';
   }
 }

@@ -11,6 +11,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var JumbotronComponent = (function () {
     function JumbotronComponent() {
+        this.jbtHeading = 'Hello World';
+        this.jbtText = 'This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.';
+        this.jbtBtnText = 'Read more';
+        this.jbtBtnUrl = 'http://test.com';
     }
     JumbotronComponent = __decorate([
         core_1.Component({
