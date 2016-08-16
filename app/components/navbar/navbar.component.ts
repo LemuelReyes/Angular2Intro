@@ -4,4 +4,10 @@ import { Component } from '@angular/core';
   selector: 'navbar',
   templateUrl: 'navbar.component.html'
 })
-export class NavbarComponent { }
+export class NavbarComponent {
+  private projectName:string;
+
+  constructor() {
+      this.projectName = 'A2Website';
+  }
+}

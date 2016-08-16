@@ -10,14 +10,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var navbar_component_1 = require('./components/navbar/navbar.component');
+var jumbotron_component_1 = require('./components/jumbotron/jumbotron.component');
 var AppComponent = (function () {
     function AppComponent() {
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: '<navbar></navbar>',
-            directives: [navbar_component_1.NavbarComponent]
+            template: '<navbar></navbar><jumbotron></jumbotron>',
+            directives: [navbar_component_1.NavbarComponent, jumbotron_component_1.JumbotronComponent]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
