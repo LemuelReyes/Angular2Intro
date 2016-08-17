@@ -12,6 +12,7 @@ import {ROUTER_DIRECTIVES} from '@angular/router';
              <div class="container">
              <router-outlet></router-outlet>
              </div>`,
-  directives: [NavbarComponent, JumbotronComponent, HomeComponent, AboutComponent, ROUTER_DIRECTIVES]
+  directives: [NavbarComponent, JumbotronComponent, HomeComponent, AboutComponent, ROUTER_DIRECTIVES],
+  precompile: [HomeComponent, AboutComponent]
 })
 export class AppComponent { }
