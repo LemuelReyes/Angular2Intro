@@ -21,8 +21,7 @@ var AppComponent = (function () {
         core_1.Component({
             selector: 'my-app',
             template: "<navbar></navbar>\n             <jumbotron></jumbotron>\n             <div class=\"container\">\n             <router-outlet></router-outlet>\n             </div>",
-            directives: [navbar_component_1.NavbarComponent, jumbotron_component_1.JumbotronComponent, home_component_1.HomeComponent, about_component_1.AboutComponent, router_1.ROUTER_DIRECTIVES],
-            precompile: [home_component_1.HomeComponent, about_component_1.AboutComponent]
+            directives: [navbar_component_1.NavbarComponent, jumbotron_component_1.JumbotronComponent, home_component_1.HomeComponent, about_component_1.AboutComponent, router_1.ROUTER_DIRECTIVES]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
